@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EcoTech Solar - Energia Sustentável</title>
     <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
 
@@ -23,14 +24,24 @@
 
     <main>
 
-        <!-- Seção Hero -->
+        <!-- Seção Hero com botão WhatsApp -->
         <section class="hero">
             <div class="container hero-content">
                 <div class="hero-text">
                     <h2>Economize até 95% na sua conta de energia!</h2>
                     <p class="subtitle">Instalação profissional de painéis solares residenciais.</p>
                     <p>Invista em energia limpa, reduza custos e valorize seu imóvel com tecnologia sustentável.</p>
-                    <a href="#contato" class="btn">Solicitar Orçamento</a>
+                    
+                    <!-- Botão com WhatsApp -->
+                    <a href="https://wa.me/5551999999999?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20instala%C3%A7%C3%A3o%20de%20pain%C3%A9is%20solares%20na%20minha%20casa."
+                       class="btn-whatsapp"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
+                             alt="WhatsApp" 
+                             class="whatsapp-icon">
+                        Solicitar Orçamento
+                    </a>
                 </div>
                 <div class="hero-image">
                     <img src="painelsolar.jpg" alt="Painéis solares instalados em residência">
@@ -38,7 +49,6 @@
             </div>
         </section>
 
-        <!-- Seção Benefícios -->
         <section id="beneficios" class="benefits">
             <div class="container">
                 <h2>Por que escolher a EcoTech Solar?</h2>
@@ -51,12 +61,10 @@
             </div>
         </section>
 
-        <!-- Seção Contato -->
         <section id="contato" class="contact">
             <div class="container">
                 <h2>Fale Conosco</h2>
                 <form id="contactForm" method="POST">
-                    
                     <div class="form-group">
                         <label for="nome">Nome</label>
                         <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
@@ -77,7 +85,6 @@
 
                     <button type="submit" class="btn">Enviar Mensagem</button>
                     <p id="formMessage"></p>
-
                 </form>
             </div>
         </section>
@@ -86,7 +93,7 @@
 
     <footer>
         <div class="container">
-            <p>&copy; 2026 EcoTech Solar - Todos os direitos reservados.</p>
+            <p>© 2026 EcoTech Solar - Todos os direitos reservados.</p>
         </div>
     </footer>
 
