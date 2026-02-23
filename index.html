@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoTech Solar - Energia Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1 class="logo">EcoTech Solar</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#beneficios">Benefícios</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Seção Hero -->
+        <section class="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h2>Economize até 95% na sua conta de energia!</h2>
+                    <p class="subtitle">Instalação profissional de painéis solares residenciais.</p>
+                    <p>Invista em energia limpa, reduza custos e valorize seu imóvel com tecnologia sustentável.</p>
+                    <a href="#contato" class="btn">Solicitar Orçamento</a>
+                </div>
+                <div class="hero-image">
+                    <img src="painelsolar.jpg" alt="Painéis solares instalados em residência">
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Benefícios -->
+        <section id="beneficios" class="benefits">
+            <div class="container">
+                <h2>Por que escolher a EcoTech Solar?</h2>
+                <ul class="benefits-list">
+                    <li>✔ Economia imediata na conta de luz</li>
+                    <li>✔ Energia limpa e sustentável</li>
+                    <li>✔ Valorização do imóvel</li>
+                    <li>✔ Garantia de 25 anos</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contato" class="contact">
+            <div class="container">
+                <h2>Fale Conosco</h2>
+                <form id="contactForm" method="POST">
+                    
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                        <small class="error"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+                        <small class="error"></small>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" placeholder="Digite sua mensagem" required></textarea>
+                        <small class="error"></small>
+                    </div>
+
+                    <button type="submit" class="btn">Enviar Mensagem</button>
+                    <p id="formMessage"></p>
+
+                </form>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 EcoTech Solar - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
